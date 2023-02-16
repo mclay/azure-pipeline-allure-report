@@ -1,6 +1,6 @@
 {
   "name": "azure-pipelines-allure-report",
-  "version": "1.0.17",
+  "version": "1.0.19",
   "private": true,
   "author": "Michael Clay",
   "dependencies": {

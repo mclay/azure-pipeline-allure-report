@@ -1,5 +1,5 @@
 {
     "manifestVersion": 1,
-    "id": "allure-report-viewer-extension",
+    "id": "azure-pipelines-allure-report-viewer",
     "publisher": "MichaelClay"
 }

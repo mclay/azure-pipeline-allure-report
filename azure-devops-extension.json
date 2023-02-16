@@ -1,12 +1,12 @@
 {
     "manifestVersion": 1,
-    "id": "azure-pipelines-allure-report",
+    "id": "azure-pipelines-allure-report-viewer",
     "publisher": "MichaelClay",
-    "version": "1.0.17",
+    "version": "1.0.19",
     "author": "Michael Clay",
     "name": "Allure Report Viewer",
     "description": "Embed Allure report in Azure Pipelines",
-    "public": false,
+    "public": true,
     "categories": ["Azure Pipelines"],
     "icons": {
         "default": "icon.png"
