@@ -1,6 +1,6 @@
 {
   "name": "publish-allure-report",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "",
   "main": "dist/index.js",
   "private": true,

@@ -40,7 +40,7 @@ const base64Map = new Map<string, string>([
     ["gif", 'image/jpeg']
 ]);
 
-function createScriptFile(baseDirectory: string = '.', ignoredFiles = ["./complete.html", "./server.js", "./fake-server.js", "./.gitignore", "./sinon-9.2.4.js", "./styles.css", "./app.js", "./package-lock.json", "./azure-pipelines.yml"]) {
+function createScriptFile(baseDirectory: string = '.', ignoredFiles = ["./complete.html", "./allure-results", "./server.js", "./fake-server.js", "./.gitignore", "./sinon-9.2.4.js", "./styles.css", "./app.js", "./package-lock.json", "./azure-pipelines.yml"]) {
     let script = `var _s = sinon.fakeServer.create();
     const _G = "GET";
     const _c = 'Content-Type';
