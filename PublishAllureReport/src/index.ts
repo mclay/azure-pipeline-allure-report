@@ -99,7 +99,7 @@ function createScriptFile(baseDirectory: string = '.', ignoredFiles = ["./comple
 }
 
 function processDirectory(folder: string = '.', callback: (file: string) => void) {
-    if (folder.endsWith('src') || folder.endsWith('.git') || folder.endsWith('node_modules')) {
+    if (folder.startsWith('previous_run') || folder.endsWith('src') ||  folder.endsWith('.git') || folder.endsWith('node_modules')) {
         return
     }
     const files = fs.readdirSync(folder);
